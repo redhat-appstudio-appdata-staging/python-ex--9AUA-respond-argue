@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: python-ex-v06n
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/eyuen-tenant/python-ex/python-ex-v06n@sha256:39bc4f111a476f41793c2f78fb8c6eba80ac36bd4a9d85fa0bab4a2bec6a3061
+        name: my-python
+        resources: {}
+status: {}
