@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: python-ex-v06n
     app.kubernetes.io/part-of: python-ex
-  name: python-ex-v06nerrr
+  name: python-ex-v06nhpli
 spec:
   path: /
   port:
