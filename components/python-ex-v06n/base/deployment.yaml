@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-ex-v06n
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/eyuen-tenant/python-ex/python-ex-v06n@sha256:186be7a5949045383d058dac76048264c25c08dc007c970178071428edd2c80b
+      - image: quay.io/redhat-user-workloads-stage/eyuen-tenant/python-ex/python-ex-v06n@sha256:39bc4f111a476f41793c2f78fb8c6eba80ac36bd4a9d85fa0bab4a2bec6a3061
         name: my-python
         ports:
         - containerPort: 8081
